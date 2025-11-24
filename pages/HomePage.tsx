@@ -11,10 +11,9 @@ import { Page } from '../types';
 
 interface HomePageProps {
     onNavigate: (page: Page, id?: number) => void;
-    onRegisterClick: () => void;
 }
 
-const HomePage: React.FC<HomePageProps> = ({ onNavigate, onRegisterClick }) => {
+const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
     return (
         <>
             <Billboard onNavigate={onNavigate} />

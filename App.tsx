@@ -71,7 +71,7 @@ export default function App() {
                 return <AdminPanelPage onNavigate={handleNavigate} />;
             case 'home':
             default:
-                return <HomePage onNavigate={handleNavigate} onRegisterClick={() => handleNavigate('register')} />;
+                return <HomePage onNavigate={handleNavigate} />;
         }
     };
 
